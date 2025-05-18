@@ -2,28 +2,10 @@
 
 import Image from "next/image";
 
+import { ChartData } from "../_type/chartdata.type";
+
 import ChartLayerLeft from "../../public/assets/ChartLayerLeft.svg";
 import ChartLayerRight from "../../public/assets/ChartLayerRight.svg";
-
-type Cell = {
-  char: string | string[];
-  meaning: string | string[];
-  color?: string;
-  cheonganIm?: string;
-};
-
-type Row = {
-  label: string;
-  subLabel: string;
-  cells: Cell[];
-};
-
-type ChartData = {
-  name: string;
-  birthDate: string;
-  headers: string[];
-  rows: Row[];
-};
 
 export default function BirthChart() {
   const chartData: ChartData = {

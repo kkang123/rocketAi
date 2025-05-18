@@ -1,6 +1,8 @@
 import React from "react";
 import Image from "next/image";
 
+import { ChapterTitleProps } from "../_type/chapterTitleProps.type";
+
 import Header from "../../public/images/ChapterTitleBg/header_bg.svg";
 import BrownBg from "../../public/images/ChapterTitleBg/brown_bg.svg";
 import Footer from "../../public/images/ChapterTitleBg/footer_bg.svg";
@@ -15,11 +17,6 @@ import Speechbubble from "../../public/assets/speech bubble.svg";
 import Speechbubble2 from "../../public/assets/speech bubble2.svg";
 import Icon2 from "../../public/assets/Group-1 1.svg";
 import CharacterBg from "../../public/assets/bg.svg";
-
-interface ChapterTitleProps {
-  number: number | string;
-  title: string;
-}
 
 const ChapterTitle: React.FC<ChapterTitleProps> = ({ number, title }) => {
   return (
