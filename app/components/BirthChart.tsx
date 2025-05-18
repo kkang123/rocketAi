@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 
-import { ChartData } from "../_type/chartdata.type";
+import { ChartData } from "../_type/chartData.type";
 
 import ChartLayerLeft from "../../public/assets/ChartLayerLeft.svg";
 import ChartLayerRight from "../../public/assets/ChartLayerRight.svg";
