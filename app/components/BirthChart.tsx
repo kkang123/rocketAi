@@ -148,7 +148,7 @@ export default function BirthChart() {
   };
 
   return (
-    <div className="flex flex-col max-w-md p-4 bg-[#F5F3EC] font-sans w-[424px] border-[3px] border-[#1B2F49] shadow-[0px_4px_4px_rgba(0,0,0,0.25) z-60 -mt-6 relative">
+    <div className="flex flex-col max-w-md p-4 bg-[#F5F3EC] font-sans w-[424px] border-[3px] border-[#1B2F49] shadow-[0px_4px_4px_rgba(0,0,0,0.25)] z-60 -mt-6 relative">
       <div className="absolute top-0 border-[1px] border-[#2B557E] border-t-0 border-b-0 w-[408px] h-[640px] self-center"></div>
       <div className="absolute top-2 border-[1px] border-[#2B557E] border-l-0 border-r-0 w-[424px] h-[624px] self-center"></div>
 
